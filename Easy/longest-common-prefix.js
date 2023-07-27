@@ -16,7 +16,7 @@
 //0 <= strs[i].length <= 200
 //strs[i] consists of only lowercase English letters.
 
-//Soluttion
+//Solution
 
 var longestCommonPrefix = function(strs) {
     if(strs.length === 1) return strs[0];
