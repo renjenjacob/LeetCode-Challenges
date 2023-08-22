@@ -24,5 +24,5 @@ var reverse = function(x) {
       x = parseInt(x/10)
     } 
     return reverse > Math.pow(2, 31) || reverse < Math.pow(-2, 31) ? 0 : reverse;
-  }
+}
 
